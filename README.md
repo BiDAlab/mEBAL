@@ -5,7 +5,7 @@ We present a platform for student monitoring in remote education consisting of a
 
 The following table shows the sensors and the information captured:
 
-![Sin titulo](http://atvs.ii.uam.es/atvs/github/tabla.PNG)
+![Sin titulo](http://atvs.ii.uam.es/atvs/github/tabla.jpg)
 
 
 During each acquisition session each user completed three different types of tasks generating data of different nature: mouse and
@@ -55,7 +55,7 @@ the raw data obtained from the sensors, the database includes information proces
 
 Next figure shows an example of the information captured during the execution of the tasks:
 
-![Sin titulo ](http://atvs.ii.uam.es/atvs/github/imagen_articulo.PNG)
+![Sin titulo ](http://atvs.ii.uam.es/atvs/github/imagen_articulo.jpg)
 
 We have designed an acquisition protocol incorporating all sensors presented in the previous sections.Some of the sensors are used to capture the groundtruth for the different challenges proposed. **We propose 5 challenges related to the monitorization of different behaviors relevant for e-learning platforms.**
 
