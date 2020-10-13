@@ -7,7 +7,7 @@ The eye blink frequency is related to the cognitive activity and automatic detec
 
 The proposed mEBAL improves previous databases in terms of acquisition sensors and samples.  In particular, **three different sensors** are simultaneously considered: **Near Infrared (NIR)** and **RGB cameras** to capture the face gestures and an **Electroencephalography (EEG) band** to capture the cognitive activity of the user and blinking events.
 
-Regarding the size of mEBAL, it comprises **6,000 samples** and the corresponding **attention level** from **38 different students** while conducting a number of e-learning tasks of varying difficulty.
+Regarding the size of mEBAL, it comprises **6,000 samples** and the corresponding **attention level** from **38 different students** while conducting a number of e-learning tasks of varying difficulty.**This information is avalible on this web [[Download Database](#instructions-for-downloading-edBB)].**
 
 a platform for student monitoring in remote education consisting of a collection of sensors and software that capture biometric and behavioral data. We define a collection of tasks to acquire behavioral data that can be useful for facing the existing challenges in automatic student monitoring during remote evaluation. Additionally, we release an initial database including data from 20 different users completing these tasks with a set of **basic sensors:** webcam, microphone, mouse, and keyboard; and also from more **advanced sensors:** NIR camera, smartwatch, additional RGB cameras, and an EEG band. Information from the computer (e.g. system logs, MAC, IP, or web browsing history) is  also stored. **This information is avalible on this web [[Download Database](http://)].**
 
