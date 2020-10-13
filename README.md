@@ -11,7 +11,7 @@ Regarding the size of mEBAL, it comprises **6,000 samples** and the correspondin
 
 The following table shows the sensors and the information captured:
 
-![Sin titulo](http://atvs.ii.uam.es/atvs/github/tabla.jpg)
+![Sin titulo](http://atvs.ii.uam.es/atvs/github/mEBAL/TABLE_SENSORS.jpg)
 
 
 During each acquisition session each user completed three different types of tasks generating data of different nature: mouse and
