@@ -24,7 +24,7 @@ Undoubtedly, e-learning platforms will benefit significantly by exploiting the *
 
 **Since the 70s there are studies relating the eye blink rate with cognitive activity like attention**. The studies suggest that **lower eye blink rates** can be associated to **high attention** periods while **higher eye blink rates** are related to **low attention levels**. Therefore, in this context, automatic eye blink detection can be a tool for estimating the attention level of the students and improving e-learning platforms.
 
-For this reasons, we hope that mEBAL will be valuable to the scientific community thanks to the multimodal nature: Cognitive Activity and Eye Blink detection.
+For this reasons, we hope that mEBAL will be valuable to the scientific community thanks to the multimodal nature: **Cognitive Activity and Eye Blink detection**.
 
 # Sensors
 
