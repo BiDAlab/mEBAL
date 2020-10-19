@@ -13,11 +13,11 @@ The following table shows the sensors and the information captured:
 
 ![Sin titulo](http://atvs.ii.uam.es/atvs/github/mEBAL/TABLE_SENSORS.jpg)
 
+The main motivation  of this work is  the improvement of the virtual education using e-learnig platforms. E-learning platforms are important tools to get high quality online education. They allow to capture student information to better understand the student behavior and conditions and this information can be used to create personalized environments. 
+Information such as the heart rate, the emotional state, or the cognitive activity can be used to improve e-learning platforms.
+The attention level of e-learning students can be used to adapt dynamically the environment and content or improve the educational resources with a posterior analysis of the e-learning sessions.
 
-During each acquisition session each user completed three different types of tasks generating data of different nature: mouse and
-keystroke dynamics, face data, and audio data among others. The tasks have been designed with two main goals in mind: i) analyse the capacity of such biometric and behavioral data for detecting anomalies during remote evaluation, and ii) study the capability of these data, i.e. EEG, ECG, or NIR video, for estimating other information about the users such as their attention level, the presence of stress, or their pulse rate.
-
-<br/>The following sections describe the platform, the public database, the targets and share challenges with the community to advance in this area:
+<br/>The following sections describe the public database, the targets and share challenges with the community to advance in this area:
 
 
 # Sensors
