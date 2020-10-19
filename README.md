@@ -13,12 +13,16 @@ The following table shows the sensors and the information captured:
 
 ![Sin titulo](http://atvs.ii.uam.es/atvs/github/mEBAL/TABLE_SENSORS.jpg)
 
-The main motivation  of this work is  the improvement of the virtual education using e-learnig platforms. E-learning platforms are important tools to get high quality online education. They allow to capture student information to better understand the student behavior and conditions and this information can be used to create personalized environments. 
-Information such as the heart rate, the emotional state, or the cognitive activity can be used to improve e-learning platforms.
-The attention level of e-learning students can be used to adapt dynamically the environment and content or improve the educational resources with a posterior analysis of the e-learning sessions.
 
 <br/>The following sections describe the motivation, the activities designed, the sensors, the public database and share mEBAL database with the community to advance in this area:
 
+# Motivation
+
+The main motivation  of this work is  **the improvement of the virtual education** using e-learnig platforms. Virtual education technologies are growing up, with a market reaching a turnover around 240.000 million dollars. 
+**E-learning platforms** are important tools to get high quality online education. They allow to capture student information to better understand the student behavior and conditions and this information can be used to create personalized environments. Information such as the heart rate, the emotional state, or the cognitive activity can be used to improve e-learning platforms.
+Undoubtedly, e-learning platforms will benefit significantly by exploiting the **attention level** of the student. This could be used to: **i)** adapt dynamically the environment and content  based on the attention level, and **ii)** improve the educational materials and resources with a posterior analysis of the e-learning sessions (e.g. detecting the type of contents more appropriate for a specific student).
+
+**Since the 70s there are studies relating the eye blink rate with cognitive activity like attention**. The studies suggest that **lower eye blink rates** can be associated to **high attention** periods while **higher eye blink rates** are related to **low attention levels**. Therefore, in this context, automatic eye blink detection can be a tool for estimating the attention level of the students and improving e-learning platforms.
 
 # Sensors
 
