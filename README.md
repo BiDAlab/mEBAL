@@ -1,4 +1,4 @@
-![Sin titulo](http://atvs.ii.uam.es/atvs/github/new_edBB_logo.png)
+![Sin titulo](http://atvs.ii.uam.es/atvs/github/mEBAL/mEBAL_ICONO.jpg)
 ***
 # About
 We present mEBAL, a multimodal database for eye blink detection and attention level estimation. mEBAL is a database which is initially introduced in [arXiv technical report](https://arxiv.org/abs/2006.05327) and then accepted by the [22nd ACM International Conference on Multimodal Interaction](http://icmi.acm.org/2020/). 
