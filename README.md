@@ -17,7 +17,7 @@ The main motivation  of this work is  the improvement of the virtual education u
 Information such as the heart rate, the emotional state, or the cognitive activity can be used to improve e-learning platforms.
 The attention level of e-learning students can be used to adapt dynamically the environment and content or improve the educational resources with a posterior analysis of the e-learning sessions.
 
-<br/>The following sections describe the motivation, the activities designed, the sensors, the public database and share mEBAL with the community to advance in this area:
+<br/>The following sections describe the motivation, the activities designed, the sensors, the public database and share mEBAL database with the community to advance in this area:
 
 
 # Sensors
