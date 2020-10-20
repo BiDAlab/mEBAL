@@ -19,12 +19,28 @@ The following table shows the sensors and the information captured:
 # Motivation
 
 The main motivation  of this work is  **the improvement of the virtual education** using e-learnig platforms. Virtual education technologies are growing up, with a market reaching a turnover around 240.000 million dollars. 
-**E-learning platforms** are important tools to get high quality online education. They allow to capture student information to better understand the student behavior and conditions and this information can be used to create personalized environments. Information such as the heart rate, the emotional state, or the cognitive activity can be used to improve e-learning platforms.
+**E-learning platforms** are important tools to get high quality online education. They allow to capture student information to better understand the student behavior and conditions and this information can be used to create personalized environments. Information such as the heart rate [1], the emotional state, or the **cognitive activity** can be used to improve e-learning platforms.
 Undoubtedly, e-learning platforms will benefit significantly by exploiting the **attention level** of the student. This could be used to: **i)** adapt dynamically the environment and content  based on the attention level, and **ii)** improve the educational materials and resources with a posterior analysis of the e-learning sessions (e.g. detecting the type of contents more appropriate for a specific student).
 
 **Since the 70s there are studies relating the eye blink rate with cognitive activity like attention**. The studies suggest that **lower eye blink rates** can be associated to **high attention** periods while **higher eye blink rates** are related to **low attention levels**. Therefore, in this context, automatic eye blink detection can be a tool for estimating the attention level of the students and improving e-learning platforms.
 
 For this reasons, we hope that mEBAL will be valuable to the scientific community thanks to the multimodal nature: **Cognitive Activity and Eye Blink detection**.
+
+
+# Tasks
+
+
+The activities designed to conform the database consist of 8 different tasks that can be categorized in the following three groups:
+ 
+ - **Enrollment form:** name and surname, ID number, nationality, e-mail address, etc. (low level of attention is expected);
+ 
+ - **Writing questions:** these questions are oriented to measure the students’ cognitive abilities under different situations such as solving logical problems, describing images, crosswords, finding differences, etc. (increasing level of attention is expected)
+ 
+ - **Multiple choice questions:** aimed to detect the students’ attention and focus levels (high level of attention is expected).
+
+The questions are selected from popular riddles and they present different levels of difficulty. The interface is designed to ensure data from different nature: free text typing (writing questions), fixed text typing (enrollment form), mouse movement (multiple choice questions), visual attention (describing images and finding differences), etc.
+
+
 
 # Sensors
 
@@ -40,18 +56,6 @@ For this reasons, we hope that mEBAL will be valuable to the scientific communit
    - A **Personal Computer** with Microsoft Windows 10 OS, a microphone to acquire audio, a regular keyboard, a mouse, and a screen. The computer is employed both to complete the tasks and also to acquire the screen data, the mouse and keyboard dynamics, audio information during the evaluation, and several types of metadata (e.g. logging, app and web history, IP and MAC addresses, etc.)
 
 
-# Tasks
-
-
-The activities designed to conform the database consist of 8 different tasks that can be categorized in the following three groups:
- 
- - **Enrollment form:** Its target consists in obtaining personal data of the users such as their name and surname, ID number, nationality, e-mail address, etc. This form is designed to acquire different events such as the mouse dynamics, clicks, mouse wheel, keyboard use, etc.
- 
- - **Writing questions:** These comprehend questions that require a complex interaction from the user. They are oriented to measure the students’ cognitive abilities under different situations such as: solving logical problems, describing images, crosswords, finding differences, etc. Additionally, some activities have been designed to induce different states of emotions to the participants, e.g. stress or nervousness. These altered states are highly relevant when working with physiological and biological signals.
- 
- - **Multiple choice questions:** These are questions aimed to detect the students’ attention and focus levels. Since multiple choice exams are largely used in online assessment platforms to evaluate their students, including these in our evaluation was essential.
-
-The questions are selected from popular riddles and they present different levels of difficulty. The interface is designed to ensure data from different nature: free text typing (writing questions), fixed text typing (enrollment form), mouse movement (multiple choice questions), visual attention (describing images and finding differences), etc.
 
 
 # Database and Challenges
