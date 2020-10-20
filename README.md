@@ -50,14 +50,12 @@ The questions are selected from popular riddles and they present different level
 
    The acquisition setup consisted of the next components: 
 
-   - 3 individual **RGB cameras** (frontal, side, and cenital), and 1 **Intel Real-Sense** (model D435i), which is composed by 1 RGB and 2 Near Infrared sensors, and which also computes also depth images combining its 3 image channels.
+   - An **EEG headset** by NeuroSky3 that captures 5 channels of electroencephalographic information **(𝛼, 𝛽,𝛾, 𝛿, 𝜃)**. These signals provide temporal information related to the cognitive activity of the student. The sensor also provides a temporal sequence with the eye blink strength. The sampling rate of the band is 1 Hz. The EEG band is used to capture the **cognitive activity of the student** and **the eye blink candidates**. **We have made a manual refinement of these eye blink candidates detected by the band to eliminate false positives**. These refined eye blinks will be used as eye blink groundtruth.
 
    - A **Huawei Watch 2** that captures pulse information in real time and has also accelerometer, magnetometer, and gyroscope; useful to measure the arm movements.
-
-
-   - An **EEG headset** by NeuroSky that captures 3 channels of electroencephalogram information. These data can be employed to know the focus level, stress, vigilance, etc. of the students
+   
+   -An **Intel RealSense** (model D435i), which comprises **1 RGB** and **2 NIR cameras**. An average blink takes 100ms-400ms
   
-   - A **Personal Computer** with Microsoft Windows 10 OS, a microphone to acquire audio, a regular keyboard, a mouse, and a screen. The computer is employed both to complete the tasks and also to acquire the screen data, the mouse and keyboard dynamics, audio information during the evaluation, and several types of metadata (e.g. logging, app and web history, IP and MAC addresses, etc.)
 
 
 
