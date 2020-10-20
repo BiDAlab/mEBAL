@@ -46,7 +46,7 @@ The questions are selected from popular riddles and they present different level
 
    We designed a multimodal acquisition framework to monitor cognitive and eye blink activity during the execution of online tasks based on the edBB platform [2] for remote education assessment:
    
-![Sin titulo](http://atvs.ii.uam.es/atvs/github/mEBAL/Framework_mEBAL1.jpg)
+![Sin titulo](http://atvs.ii.uam.es/atvs/github/mEBAL/Framework_mEBAL.jpg)
 
    The acquisition setup consisted of the next components: 
 
