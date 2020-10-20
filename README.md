@@ -11,7 +11,7 @@ Regarding the size of mEBAL, it comprises **6,000 samples** and the correspondin
 
 The following table shows the sensors and the information captured:
 
-![Sin titulo](http://atvs.ii.uam.es/atvs/github/mEBAL/TABLE_SENSORS.jpg)
+![Sin titulo](http://atvs.ii.uam.es/atvs/github/mEBAL/Table.jpg)
 
 
 <br/>The following sections describe the motivation, the activities designed, the sensors, the public database and share mEBAL database with the community to advance in this area:
