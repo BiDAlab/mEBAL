@@ -63,7 +63,7 @@ mEBAL comprises a total of 3,000 blink samples from both eyes acquired with 1 RG
 
 mEBAL was collected in a constrained environment, but it is rich in pose, illumination changes, and other naturally-occurring factors. It can be seen in the next figure:
 
-![Sin titulo](http://atvs.ii.uam.es/atvs/github/mEBAL/Examples_Blink3.jpg)
+![Sin titulo](http://atvs.ii.uam.es/atvs/github/mEBAL/Examples_Blink2.jpg)
 
 The mEBAL dataset was obtained from the **raw data provided in the edBBdb** [2]. The eye blink and attention level information was labelled following a semi-supervised method. First, eye blink candidates were selected using the EEG band signals (eye blink strength is an attribute provided by the EEG band SDK). Second, we made a manual refinement of the eye blink samples detected by the band to eliminate false positives. Once the eye blink samples were validated, we stored the 9 frames previous and posterior to the eye blink event (19 frames in total for each eye blink). These frames can be used to exploit the temporal information proposed in some approaches of the literature. Finally, we used facial landmark detection [3] to track the eye position.
 
