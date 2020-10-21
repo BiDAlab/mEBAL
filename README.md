@@ -76,24 +76,21 @@ This means that is **8 times** larger than HUST-LEBW database, the existing data
 
 
 
-# Download
+# Instructions for Downloading edBB
 
-The information is available at the following links:
+1) [Download license agreement](), send by email one signed and scanned copy to **atvs@uam.es** according to the instructions given in point 2.
 
-- **The initial subset of the full database** [[link](http://)]. 
+2) Send an email to **atvs@uam.es**, as follows:
 
-- **Challenge 1.** Input data and processed data [[link](http://)].  [[TXT file](http://)] includes information about the challenge and the target proposed.
+   *Subject:* **[DATABASE: mEBAL]**
 
-- **Challenge 2.** Input data and processed data [[link](http://)].  [[TXT file](http://)] includes information about the challenge and the target proposed.
+   Body: Your name, e-mail, telephone number, organization, postal mail, purpose for which you will use the database, time and date at which you sent the email with the signed      license agreement.
 
-- **Challenge 3.** Input data and processed data [[link](http://)].  [[TXT file](http://)] includes information about the challenge and the target proposed.
+3) Once the email copy of the license agreement has been received at ATVS, you will receive an email with a username, a password, and a time slot to download the database.
 
-- **Challenge 4.** Input data and processed data [[link](http://)].  [[TXT file](http://)] includes information about the challenge and the target proposed.
+4) [Download the database](http://atvs.ii.uam.es/atvs/intranet/free_DB/edBB/), for which you will need to provide the authentication information given in step 4. After you finish the download, please notify by email to **atvs@uam.es** that you have successfully completed the transaction.
 
-- **Challenge 5.** Input data and processed data [[link](http://)].  [[TXT file](http://)] includes information about the challenge and the target proposed.
-
-
-
+5) For more information, please contact: **atvs@uam.es**
 
 
 # License
