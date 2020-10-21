@@ -7,7 +7,7 @@ The eye blink frequency is related to the cognitive activity and automatic detec
 
 The proposed mEBAL improves previous databases in terms of numbers samples in eye blink and cognitive information available.  In particular, **three different sensors** are simultaneously considered: **Near Infrared (NIR)** and **RGB cameras** to capture the face gestures and an **Electroencephalography (EEG) band** to capture the cognitive activity of the user and blinking events.
 
-Regarding the size of mEBAL, it comprises **6,000 samples** and the corresponding **attention level** from **38 different students** while conducting a number of e-learning tasks of varying difficulty.**This information is avalible on this web [[Download Database](#instructions-for-downloading-edBB)].**
+Regarding the size of mEBAL, it comprises **3,000 blink samples** and the corresponding **attention level** from **38 different students** while conducting a number of e-learning tasks of varying difficulty.**This information is avalible on this web [[Download Database](#instructions-for-downloading-edBB)].**
 
 The following table shows the sensors and the information captured:
 
@@ -57,42 +57,15 @@ We used facial landmark detection to track the eyes position and classify the im
 
 
 
-# Database and Challenges
+# Database
 
-The initial subset of the full database that is released with the present paper is composed by 20 users captured under controlled laboratory conditions during one session. The enrollment form includes demographic information from the user (age, gender, right-handed or left-handed). Additionally, we provide the performance (accuracy and time) achieved by each user in each specific task. Together with
-the raw data obtained from the sensors, the database includes information processed to better understand and model the student behavior. This information is obtained using stateof-the-art algorithms:
+mEBAL comprises a total of 3,000 blink samples from both eyes acquired with 1 RGB and 2 NIR cameras. Each sample comprises 19 frames (around 600 ms.) for a total number of images of **342,000** (3,000 × 19 × 2 × 3). Aspects such as the user position and changes in the illumination were considered during the acquisition in order to simulate realistic e-learning scenarios. 11 out of the 38 students used glasses.
 
-- **Head Pose:** head pose (pitch, roll, and yaw) is estimated from the frontal webcam using the algorithm proposed in [1].
+mEBAL was collected in a constrained environment, but it is rich in pose, illumination changes, and other naturally-occurring factors. It can be seen in the next figure:
 
-- **Mental State:** attention and meditation is estimated from the EEG signals according to the method developed by NeuroSky. The attention indicates the intensity of mental “focus”. The value ranges from 0 to 100. The attention level increases when a student focuses on a single thought or an external object, and decreases when distracted. The meditation indicates the level of mental relaxation. The value ranges from 0 to 100, and increases when users relax the mind and decreases when they are uneasy or stressed.
+The mEBAL dataset was obtained from the **raw data provided in the edBBdb** [2]. The eye blink and attention level information was labelled following a semi-supervised method. First, eye blink candidates were selected using the EEG band signals (eye blink strength is an attribute provided by the EEG band SDK). Second, we made a manual refinement of the eye blink samples detected by the band to eliminate false positives. Once the eye blink samples were validated, we stored the 9 frames previous and posterior to the eye blink event (19 frames in total for each eye blink). These frames can be used to exploit the temporal information proposed in some approaches of the literature. Finally, we used facial landmark detection [3] to track the eye position.
 
-- **Face Biometrics:** size of the face (related to the distance to the front webcam) and authentication score are provided using the face detection algorithm proposed in [2] and the face authentication model [3].
-
-Next figure shows an example of the information captured during the execution of the tasks:
-
-![Sin titulo ](http://atvs.ii.uam.es/atvs/github/imagen_articulo.jpg)
-
-We have designed an acquisition protocol incorporating all sensors presented in the previous sections.Some of the sensors are used to capture the groundtruth for the different challenges proposed. **We propose 5 challenges related to the monitorization of different behaviors relevant for e-learning platforms.**
-
-For each challenge, we propose target and input data. The goal is to train new artificial intelligence models capable of predicting the
-target from the input data.
-**The 5 challenges proposed in this work are:** 
-
-- **Challenge 1 - Attention Estimation:** an estimation of the attention level of the students during the execution of e-learning tasks is a very valuable resource. We propose to estimate the band signals (level of attention) from patterns captured from the basic sensors. The head pose and gaze estimation from the webcam, together with the mouse and keystroke dynamics can be used to predict attention of the students. **Target:** attention level obtained from the band signals. **Input:** front webcam video, mouse, and keystroke
-sequences. [[Download Challenge 1](http://)]
-
-- **Challenge 2 - Anomalous Behavior Detection:** the detection of non-allowed behaviors during the execution of evaluation tasks is an important challenge necessary to improve the trustworthiness in e-learning platforms. Ten users were instructed to perform non-allowed activities during the execution of the tasks. These activities comprise the use of material/resources with the correct responses to the questions. We propose the use of a smartphone as a non-allowed resource. These users try to hide the smartphone in their pockets. These events are labelled with a timestamp that identify the exact period when cheating really occurred.. We propose to use the basic sensors to detect these events. **Target:** detection of nonallowed events. **Input:** front webcam video, microphone, mouse, and keystroke dynamics. [[Download Challenge 2](http://)]
-<br/><br/>The following image shows an example of this challenge:
-
-
-<p align="center"><img src="http://atvs.ii.uam.es/atvs/github/CHALLENGE.png"></p>
-
-- **Challenge 3 - Performance Prediction:** each task is evaluated and the performance is measured in terms of
-accuracy (percentage of correct responses) and time spent to complete the task. We propose to estimate the performance of the student using both basic and advance sensors. **Target:** accuracy. **Basic Input:** front webcam video, mouse, and keystroke. **Advanced Input:** basic sensors plus pulse and EEC band signals. [[Download Challenge 3](http://)]
-
-- **Challenge 4 - User Authentication:** student authentication is a critical step in a e-learning platforms. All users complete the same tasks, including the enrollment form that contains personal data. Data is anonymized but an ID number is provided to identify data from each user. The dataset is rich in biometric patterns useful for authentication (face, keystroke, mouse). **Target:** identity of the student. **Basic Input:** front webcam video, mouse, and keystroke dynamics. **Advanced Input:** IR cameras, smartwatch sensors, EEG band. [[Download Challenge 4](http://)]
-
-- **Challenge 5 - Pulse Estimation:** the pulse is highly related to the emotional state and stress level of the students. In this challenge, we propose to estimate the pulse from the smartwatch using the front camera. Alternatively, the IR cameras can be used to analyse the potential of these sensors. **Target:** pulse of the student. **Basic Input:** front webcam video. **Advanced Input:** IR cameras. [[Download Challenge 5](http://)]
+The video recorded during the session, eye bounding boxes, and the cropped eyes are provided in our contributed mEBAL database. Additionally, we include the cognitive temporal signals α, β,γ , δ, θ provided by the EEG band.
 
 
 # Download
