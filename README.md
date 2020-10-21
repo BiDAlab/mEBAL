@@ -11,8 +11,7 @@ Regarding the size of mEBAL, it comprises **3,000 blink samples** and the corres
 
 The following table shows the sensors and the information captured:
 
-![Sin titulo](http://atvs.ii.uam.es/atvs/github/mEBAL/Table2.jpg)
-
+![Sin titulo](http://atvs.ii.uam.es/atvs/github/mEBAL/Table1.jpg)
 <br/>The following sections describe the motivation, the activities designed, the sensors, the public database and share mEBAL database with the community to advance in this area:
 
 # Motivation
