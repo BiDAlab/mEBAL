@@ -42,7 +42,7 @@ The questions are selected from popular riddles and they present different level
 
 # Sensors
 
-   We designed a multimodal acquisition framework to monitor cognitive and eye blink activity during the execution of online tasks based on the edBB platform [3] for remote education assessment:
+   We designed a multimodal acquisition framework to monitor cognitive and eye blink activity during the execution of online tasks based on the [edBB platform](https://github.com/BiDAlab/edBBdb) [3] for remote education assessment:
    
 ![Sin titulo](http://atvs.ii.uam.es/atvs/github/mEBAL/Framework_mEBAL2.jpg)
 
