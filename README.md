@@ -78,7 +78,7 @@ This means that is **8 times** larger than HUST-LEBW database, the existing data
 
 # Instructions for Downloading mEBAL
 
-1) [Download license agreement](http://atvs.ii.uam.es/atvs/files/mEBAL_License_Agreement.pdf), send by email one signed and scanned copy to **atvs@uam.es** according to the instructions given in point 2.
+1) [Download license agreement](https://bidalab.eps.uam.es/static/licenses/mEBAL_License_Agreement.pdf), send by email one signed and scanned copy to **atvs@uam.es** according to the instructions given in point 2.
 
 2) Send an email to **atvs@uam.es**, as follows:
 
@@ -88,7 +88,7 @@ This means that is **8 times** larger than HUST-LEBW database, the existing data
 
 3) Once the email copy of the license agreement has been received at ATVS, you will receive an email with a username, a password, and a time slot to download the database.
 
-4) [Download the database](http://atvs.ii.uam.es/atvs/intranet/free_DB/mEBAL/), for which you will need to provide the authentication information given in step 4. After you finish the download, please notify by email to **atvs@uam.es** that you have successfully completed the transaction.
+4) [Download the database](https://bidalab.eps.uam.es/listdatabases?id=mEBAL#page), for which you will need to provide the authentication information given in step 4. After you finish the download, please notify by email to **atvs@uam.es** that you have successfully completed the transaction.
 
 5) For more information, please contact: **atvs@uam.es**
 
