@@ -11,7 +11,7 @@ Regarding the size of mEBAL, it comprises **3,000 blink samples** and the corres
 
 The following table shows the sensors and the information captured:
 
-![Sin titulo](https://bidalab.eps.uam.es/static/github/mEBAL/Table1.jpg)
+[Sin titulo](https://bidalab.eps.uam.es/static/github/mEBAL/Table1.jpg)
 <br/>The following sections describe the motivation, the activities designed, the sensors, the public database and share mEBAL database with the community to advance in this area:
 
 # Motivation
