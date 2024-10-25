@@ -1,4 +1,4 @@
-![Sin titulo](https://bidalab.eps.uam.es/static/github/mEBAL/mEBAL_ICONO1.jpg)
+![Sin titulo](/img/mEBAL_ICONO1.jpg)
 ***
 # About
 We present mEBAL [1], a multimodal database for eye blink detection and attention level estimation. mEBAL is a database which is initially introduced in [arXiv technical report](https://arxiv.org/abs/2006.05327v2) and then accepted by the [22nd ACM International Conference on Multimodal Interaction](http://icmi.acm.org/2020/). 
@@ -11,7 +11,7 @@ Regarding the size of mEBAL, it comprises **3,000 blink samples** and the corres
 
 The following table shows the sensors and the information captured:
 
-![Sin titulo](https://bidalab.eps.uam.es/static/github/mEBAL/Table1.jpg)
+![Sin titulo](/img/Table1.jpg)
 <br/>The following sections describe the motivation, the activities designed, the sensors, the public database and share mEBAL database with the community to advance in this area:
 
 # Motivation
@@ -44,7 +44,7 @@ The questions are selected from popular riddles and they present different level
 
    We designed a multimodal acquisition framework to monitor cognitive and eye blink activity during the execution of online tasks based on the [edBB platform](https://github.com/BiDAlab/edBBdb) [3] for remote education assessment:
    
-![Sin titulo](https://bidalab.eps.uam.es/static/github/mEBAL/Framework_mEBAL2.jpg)
+![Sin titulo](/img/Framework_mEBAL2.jpg)
 
    The acquisition setup consisted of the next components: 
 
@@ -61,7 +61,7 @@ We used facial landmark detection to track the eyes position and classify the im
 mEBAL comprises a total of 3,000 blink samples from both eyes acquired with 1 RGB and 2 NIR cameras. Each sample comprises 19 frames (around 600 ms.) for a total number of images of **342,000** (3,000 × 19 × 2 × 3). Aspects such as the user position and changes in the illumination were considered during the acquisition in order to simulate realistic e-learning scenarios. 11 out of the 38 students used glasses.
 
 mEBAL was collected in a constrained environment, but it is rich in pose, illumination changes, and other naturally-occurring factors. It can be seen in the next figure:
-![Sin titulo](https://bidalab.eps.uam.es/static/github/mEBAL/Examples_Blink3.jpg)
+![Sin titulo](/img/Examples_Blink3.jpg)
 
 
 The mEBAL dataset was obtained from the **raw data provided in the [edBBdb](https://github.com/BiDAlab/edBBdb)** [3]. The eye blink and attention level information was labelled following a semi-supervised method. First, eye blink candidates were selected using the EEG band signals (eye blink strength is an attribute provided by the EEG band SDK). Second, we made a manual refinement of the eye blink samples detected by the band to eliminate false positives. Once the eye blink samples were validated, we stored the 9 frames previous and posterior to the eye blink event (19 frames in total for each eye blink). These frames can be used to exploit the temporal information proposed in some approaches of the literature. Finally, we used facial landmark detection to track the eye position.
@@ -70,7 +70,7 @@ The mEBAL dataset was obtained from the **raw data provided in the [edBBdb](http
 
 The next table shows the most popular eye blink detection databases. As can be seen, all available databases comprise only a few hundred samples, however mEBAL **includes 3000 blink samples**:
 
-![Sin titulo](https://bidalab.eps.uam.es/static/github/mEBAL/Table_eye_blink_detection_databases3.jpg)
+![Sin titulo](/img/Table_eye_blink_detection_databases3.jpg)
 
 This means that is **8 times** larger than HUST-LEBW database, the existing database with largest number of eye blinks. Data is critical to train end-to-end approaches such as those based on neural networks. Furthermore, **mEBAL is unique in to use 3 sensors and to include the attention level**.
 
