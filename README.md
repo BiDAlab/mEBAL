@@ -1,7 +1,9 @@
 ![Sin titulo](/img/mEBAL_ICONO1.jpg)
 ***
 # About
-We present mEBAL [1], a multimodal database for eye blink detection and attention level estimation. mEBAL is a database which is initially introduced in [arXiv technical report](https://arxiv.org/abs/2006.05327v2) and then accepted by the [22nd ACM International Conference on Multimodal Interaction](http://icmi.acm.org/2020/). A new version of this database, mEBAL2, has been released and is available on GitHub at the following [link](https://github.com/BiDAlab/mEBAL2). It includes an expanded dataset with 10,550 eyeblinks and 10,550 no-blink events, along with a more diverse group of users, consisting of 180 different students.
+We present mEBAL [1], a multimodal database for eye blink detection and attention level estimation. mEBAL is a database which is initially introduced in [arXiv technical report](https://arxiv.org/abs/2006.05327v2) and then accepted by the [22nd ACM International Conference on Multimodal Interaction](http://icmi.acm.org/2020/). 
+
+📢 **Update: New Version Released – mEBAL2:** A new version of this database, mEBAL2, has been released and is available on GitHub at the following [link](https://github.com/BiDAlab/mEBAL2). It includes an expanded dataset with 10,550 eyeblinks and 10,550 no-blink events, along with a more diverse group of users, consisting of 180 different students.
 
 The eye blink frequency is related to the cognitive activity and automatic detectors of eye blinks have been proposed for many tasks including attention level estimation, analysis of neuro-degenerative diseases, deception recognition, drive fatigue detection, or face anti-spoofing. However, most existing databases and algorithms in this area are limited to experiments involving only a few hundred samples and individual sensors like face cameras. 
 
@@ -77,6 +79,11 @@ This means that is **8 times** larger than HUST-LEBW database, the existing data
 
 
 # Instructions for Downloading mEBAL
+
+📢 **Update: New Version Released – mEBAL2**
+For your information, a new version of this database, named mEBAL2, has been released and is available at the following [link](https://github.com/BiDAlab/mEBAL2).
+🔍 **Key Highlights:** Larger dataset with more eyeblinks and users. Enables comparative analyses between mEBAL and mEBAL2.
+
 
 1) [Download license agreement](https://bidalab.eps.uam.es/static/licenses/mEBAL_License_Agreement.pdf), send by email one signed and scanned copy to **atvs@uam.es** according to the instructions given in point 2.
 
