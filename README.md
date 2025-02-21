@@ -85,7 +85,7 @@ For your information, a new version of this database, named mEBAL2, has been rel
 🔍 **Key Highlights:** Larger dataset with more eyeblinks and users. Enables comparative analyses between mEBAL and mEBAL2.
 
 
-1) [Download license agreement](license/mEBAL_License_Agreement.pdf), send by email one signed and scanned copy to **atvs@uam.es** according to the instructions given in point 2.
+1) [Download license agreement](License/mEBAL_License_Agreement.pdf), send by email one signed and scanned copy to **atvs@uam.es** according to the instructions given in point 2.
 
 2) Send an email to **atvs@uam.es**, as follows:
 
