@@ -30,7 +30,7 @@ The following table summarises the demographic distribution of the 38 participan
   <tbody>
     <tr><td>Gender</td><td>Male</td><td>81.58%</td><td>31</td><td>25.0645</td></tr>
     <tr><td></td><td>Female</td><td>18.42%</td><td>7</td><td>23.7143</td></tr>
-    <tr><td>Visual Aid</td><td>Wearing Glasses</td><td>---</td><td>11</td><td>---</td></tr>
+    <tr><td>Visual Aid</td><td>Wearing Glasses</td><td>28.95%</td><td>11</td><td>---</td></tr>
     <tr><td>Overall Averages</td><td>Overall Average Age</td><td>---</td><td>---</td><td>24.8158</td></tr>
     <tr><td></td><td>Age Range</td><td>---</td><td>---</td><td>38–21</td></tr>
   </tbody>
